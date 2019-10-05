@@ -1,0 +1,5 @@
+
+    const storage = require('azure-storage');
+    const connectionString = "DefaultEndpointsProtocol=https;AccountName=showerpowerwwc;AccountKey=3Rw47Gth8OdcnI43ofTj6OGktRNylkxDRldcB1wclnjpk4XJpAvVGArDM3y3bzxKk4hTCEa25YE3Vnv0ZpcQ0g==;TableEndpoint=https://showerpowerwwc.table.cosmos.azure.com:443/;";
+    const storageClient = storage.createTableService(connectionString);
+    
